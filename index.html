@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Butterfly+Kids&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slabo+13px&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- Section A -->
+  <div id="sectionA">
+    <button id="myBtn">Click This Button</button>
+    
+    <svg
+  class="loader"
+  width="200"
+  height="200"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+  id="mySvg1"
+>
+  <defs>
+    <linearGradient id ="birthdayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D8D"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background ring -->
+  <circle
+    cx="50"
+    cy="50"
+    r="38"
+    fill="none"
+    stroke="#ffffff20"
+    stroke-width="7"
+  />
+
+  <!-- Moving ring -->
+  <circle
+    class="loader-ring"
+    cx="50"
+    cy="50"
+    r="38"
+    fill="none"
+    stroke="url(#birthdayGradient)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="80 160"
+  />
+
+  <!-- Birthday cake -->
+  <text
+    x="50"
+    y="57"
+    text-anchor="middle"
+    font-size="18"
+    font-weight="bold"
+  >
+  
+  </text>
+</svg>
+
+  </div>
+  <!-- sectionB -->
+  <div id="sectionB">
+    <form id="myForm">
+      <h1>PassWord</h1>
+      <input id="pWord" type="password">
+      <button type="submit" id="mySubmit">Submit</button>
+      <p id="myP"></p>
+    </form>
+  </div>
+  <!-- Section C -->
+  <div id="sectionC">
+
+</div>
+    <div class="confetti-container">
+  <div class="confetti left"></div>
+  <div class="confetti right" ></div>
+  <audio id="aud" preload="auto">
+    <source src="./images/confetti-pop.mp3" type="audio/mpeg" repeat>
+  </audio>
+  
+    <audio id="happy" preload="auto">
+    <source src="./images/happy_birthday.mp3" type="audio/mpeg">
+  </audio>
+  </div>
+  
+  <div id="newSv">
+        <svg
+  class="loader"
+  width="200"
+  height="200"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+  id="mySvg2"
+>
+  <defs>
+    <linearGradient id="birthdayGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D8D"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background ring -->
+  <circle
+    cx="50"
+    cy="50"
+    r="38"
+    fill="none"
+    stroke="#ffffff20"
+    stroke-width="7"
+  />
+
+  <!-- Moving ring -->
+  <circle
+    class="loader-ring"
+    cx="50"
+    cy="50"
+    r="38"
+    fill="none"
+    stroke="url(#birthdayGradient2)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="80 160"
+  />
+
+  <!-- Birthday cake -->
+  <text
+    x="50"
+    y="57"
+    text-anchor="middle"
+    font-size="30"
+    font-weight="bold"
+    id="myText2"
+    fill = "white"
+  >
+  5
+  </text>
+</svg>
+  </div>
+  <!-- Section D -->
+  <div id='sectionD'>
+    <img src="./images/Cakii.png" id="myimg">
+    <h1>Happy Birthday</h1>
+    <div id="items">
+    <p id="yr"></p>
+    <p id="mon"></p>
+    <p id="da"></p>
+    <button id="clicki">Click Here</button>
+    </div>
+  </div>
+   <audio id="music" preload="auto" loop>
+      <source src="./images/soft.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div id="sectionE">
+      
+    </div>
+    <div id="box">
+    <button id="keep">Keep Clicking</button>
+    </div>
+   <!-- <div id="sectionF">
+      <p id="se">Take <span id="spa">60</span> secs of you Time to thank and appreciate Almighty Allah</p>
+      <p id="timer">60</p>
+      <button id="startStyle">Start Time</button>
+    </div>
+    -->
+    
+    <div id="realG">
+      <img src="./images/Gif.gif" id="give">
+      </video>
+    <h1 id="headFG">Happy Birthday in 100+ Languages</h1>
+    <div id="sectionG">
+  <div id="whole">
+    <p id="birthLang">Happy Birthday</p>
+    <span id="countryLang">English 🇬🇧</span>
+  </div>
+  
+  <img src="./images/forward-button.png" id="forward">
+</div>
+<button id="next">Next</button>
+</div>
+<div id="sectionH" style="display: none;">
+  <h1>Pick One Box</h1>
+  <div id="gifs">
+    <img src="./images/gift1.gif" id="gif1">
+    <img src="./images/gift2.gif" id="gif2">
+    <img src="./images/gif3.gif" id="gif3">
+  </div>
+  <div id="centering">
+<div id="animalModal">
+    <img id="animalImg" src="">
+    <h1 id="animalName"></h1>
+    <p id="animalDescription"></p>
+    </div>
+</div>
+</div>
+<div id="sectionI">
+<button id="nAgain">Click Here</button>
+</div>
+    <section class="ending">
+
+    <span class="ending-star">✦</span>
+
+    <p class="ending-label">
+      THE END... FOR NOW
+    </p>
+
+    <h2>
+      And that's a wrap 🎂
+    </h2>
+
+    <p class="ending-message">
+      I hope you enjoyed this little corner of the internet
+      made just for you.
+    </p>
+
+    <h3>
+      Happy Birthday once again! ✨
+    </h3>
+
+    <p class="ending-wish">
+      Here's to another year of memories, growth, laughter,
+      and beautiful surprises.
+    </p>
+
+    <div class="ending-line"></div>
+
+    <strong>
+      Keep being you. 💜
+    </strong>
+
+    <span class="ending-sparkle">✧</span>
+    <button id="dont">Don't Click Please</button>
+      <img src="./images/PnUdgnlY1iifr2vdFU.gif" id="candle">
+  </section>
+<div id="sectionK">
+  <p id="spa1">Dey</p>
+  <p id="spaa">Go</p>
+  <p id="spa2">Naw</p>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
