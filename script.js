@@ -222,11 +222,7 @@ displayCir()
   let cards = [];
   
   let farcy = new Card("Anonymous", "Happy Birthdayyy!  I hope your day is filled with good food, great vibes, lots of laughter, and all the people who make you feel special. Wishing you an amazing year ahead, full of happiness, unforgettable memories, and plenty of success. Enjoy your day and celebrate big!Happy Birthday!❤️🎂🎉")
-  let juliet = new Card("Juliet", "Happy birthday 🎉 to the most precious girl of my life long life 💕 😘 and prosperity ❤️more money❤️‍🔥 in ur Azar more calendar to destroy . Enjoy your day to the fullest my love 😘")
-let Ahmidat = new Card("Ahmidat", "Happy Birthday, Bae Kaffy! Wishing you a day full of joy and a year full of wins. Thank you for being you — kind, funny, and genuinely one of a kind. You mean so much more to me than words can say. Enjoy your day to the fullest. You deserve it all.")
     cards.push(farcy)
-    cards.push(juliet)
-    cards.push(Ahmidat)
   function displayCard(){
     
     for(let i = 0; i < cards.length; i++){
